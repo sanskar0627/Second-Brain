@@ -127,7 +127,7 @@ const Card = (props: CardProps) => {
       <div className="flex gap-3 pt-4 pl-5">
         <Tags tagTypes={props.tag} />
       </div>
-      <div className="text-sm text-gray-500 pl-5 pt-3 pb-2 absolute fixed bottom-2">
+      <div className="text-sm text-gray-500 pl-5 pt-3 pb-2 fixed bottom-2">
         Created on: <span className="font-medium">{date}</span>
       </div>
     </div>
